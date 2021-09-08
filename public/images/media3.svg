@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="190.253" viewBox="0 0 150 190.253">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_188" width="144.201" height="144.201" class="cls-1" rx="19.227" transform="translate(1584.363 8236.596)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Rectangle_187" d="M0 0H2280.773V324.451H0z" class="cls-1" transform="translate(-479.291 8171.706)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <circle id="Ellipse_59" cx="32.445" cy="32.445" r="32.445" class="cls-1" transform="translate(1623.709 8277.317)"/>
+        </clipPath>
+        <clipPath id="clip-path-5">
+            <path id="Rectangle_191" d="M0 0H187.461V187.461H0z" class="cls-1" transform="translate(1563.551 8214.966)"/>
+        </clipPath>
+        <clipPath id="clip-path-6">
+            <path id="Rectangle_190" d="M0 0H67.294V67.294H0z" class="cls-1" transform="translate(1623.635 8275.049)"/>
+        </clipPath>
+        <clipPath id="clip-path-7">
+            <circle id="Ellipse_60" cx="6.008" cy="6.008" r="6.008" class="cls-1" transform="translate(1681.39 8271.309)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}.cls-4{clip-path:url(#clip-path-2)}
+        </style>
+    </defs>
+    <g id="Group_371" transform="translate(-1581.467 -8236.596)">
+        <text id="Instagram" font-family="ProximaNova-Semibold, Proxima Nova" font-size="33.647px" font-weight="600" transform="translate(1581.467 8416.849)">
+            <tspan x="0" y="0">Instagram</tspan>
+        </text>
+        <g id="Group_578">
+            <g id="Group_357">
+                <g id="Group_356" clip-path="url(#clip-path)">
+                    <g id="Group_355">
+                        <g id="Group_354" class="cls-4">
+                            <path id="Rectangle_186" fill="#000002" d="M0 0H168.234V168.234H0z" transform="translate(1572.347 8224.579)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group_577">
+                <rect id="Rectangle_189" width="98.421" height="98.421" fill="none" stroke="#ffca05" stroke-miterlimit="10" stroke-width="6.008px" rx="24.033" transform="translate(1607.385 8259.791)"/>
+                <g id="Group_366">
+                    <g id="Group_365" clip-path="url(#clip-path-3)">
+                        <g id="Group_364">
+                            <g id="Group_363" class="cls-4">
+                                <g id="Group_362" style="isolation:isolate">
+                                    <g id="Group_361">
+                                        <g id="Group_360" clip-path="url(#clip-path-5)">
+                                            <g id="Group_359">
+                                                <g id="Group_358" clip-path="url(#clip-path-6)">
+                                                    <circle id="Ellipse_58" cx="32.445" cy="32.445" r="32.445" fill="none" stroke="#ffca05" stroke-miterlimit="10" stroke-width="12.017px" transform="translate(1623.709 8277.317)"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group_370">
+                    <g id="Group_369" clip-path="url(#clip-path-7)">
+                        <g id="Group_368">
+                            <g id="Group_367" class="cls-4">
+                                <path id="Rectangle_193" fill="#ffca05" d="M0 0H36.05V36.05H0z" transform="translate(1669.373 8259.292)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

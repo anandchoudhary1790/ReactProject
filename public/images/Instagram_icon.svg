@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.201" height="144.2" viewBox="0 0 144.201 144.2">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_188" data-name="Rectangle 188" width="144.201" height="144.201" rx="19.227" transform="translate(1584.363 8236.596)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_187" data-name="Rectangle 187" width="2280.773" height="324.451" transform="translate(-479.291 8171.706)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_59" data-name="Ellipse 59" cx="32.445" cy="32.445" r="32.445" transform="translate(1623.709 8277.317)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectangle_191" data-name="Rectangle 191" width="187.461" height="187.461" transform="translate(1563.551 8214.966)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="Rectangle_190" data-name="Rectangle 190" width="67.294" height="67.294" transform="translate(1623.635 8275.049)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <circle id="Ellipse_60" data-name="Ellipse 60" cx="6.008" cy="6.008" r="6.008" transform="translate(1681.39 8271.309)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Instagram_icon" transform="translate(-1584.363 -8236.596)">
+    <g id="Group_357" data-name="Group 357">
+      <g id="Group_356" data-name="Group 356" clip-path="url(#clip-path)">
+        <g id="Group_355" data-name="Group 355">
+          <g id="Group_354" data-name="Group 354" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_186" data-name="Rectangle 186" width="168.234" height="168.234" transform="translate(1572.347 8224.579)" fill="#000002"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_189" data-name="Rectangle 189" width="98.421" height="98.421" rx="24.033" transform="translate(1607.385 8259.791)" fill="none" stroke="#ffca05" stroke-miterlimit="10" stroke-width="6.008"/>
+    <g id="Group_366" data-name="Group 366">
+      <g id="Group_365" data-name="Group 365" clip-path="url(#clip-path-3)">
+        <g id="Group_364" data-name="Group 364">
+          <g id="Group_363" data-name="Group 363" clip-path="url(#clip-path-2)">
+            <g id="Group_362" data-name="Group 362" style="isolation: isolate">
+              <g id="Group_361" data-name="Group 361">
+                <g id="Group_360" data-name="Group 360" clip-path="url(#clip-path-5)">
+                  <g id="Group_359" data-name="Group 359">
+                    <g id="Group_358" data-name="Group 358" clip-path="url(#clip-path-6)">
+                      <circle id="Ellipse_58" data-name="Ellipse 58" cx="32.445" cy="32.445" r="32.445" transform="translate(1623.709 8277.317)" fill="none" stroke="#ffca05" stroke-miterlimit="10" stroke-width="12.017"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_370" data-name="Group 370">
+      <g id="Group_369" data-name="Group 369" clip-path="url(#clip-path-7)">
+        <g id="Group_368" data-name="Group 368">
+          <g id="Group_367" data-name="Group 367" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_193" data-name="Rectangle 193" width="36.05" height="36.05" transform="translate(1669.373 8259.292)" fill="#ffca05"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

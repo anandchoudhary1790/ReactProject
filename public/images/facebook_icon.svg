@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.201" height="144.229" viewBox="0 0 144.201 144.229">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_183" data-name="Rectangle 183" width="144.201" height="144.201" rx="19.227" transform="translate(1183.229 8236.596)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_182" data-name="Rectangle 182" width="2280.773" height="324.451" transform="translate(-481.161 8171.706)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="62.208" height="122.918" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_691" data-name="Path 691" d="M1289.228,8278.951l13.871-.033v-20.129l-19.27-.882a25.434,25.434,0,0,0-25.4,25.4v19.27h-17.537v21.894h17.537v56.354h22.191v-56.354h18.972l2.924-21.894h-21.9v-15.02a8.626,8.626,0,0,1,8.609-8.607" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="facebook_icon" transform="translate(-1183.229 -8236.596)">
+    <g id="Group_348" data-name="Group 348">
+      <g id="Group_347" data-name="Group 347" clip-path="url(#clip-path)">
+        <g id="Group_346" data-name="Group 346">
+          <g id="Group_345" data-name="Group 345" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_181" data-name="Rectangle 181" width="168.234" height="168.234" transform="translate(1171.212 8224.579)" fill="#000002"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(1240.891 8257.907)" clip-path="url(#clip-path-3)">
+      <g id="Group_352" data-name="Group 352" transform="translate(-1240.891 -8257.907)">
+        <g id="Group_351" data-name="Group 351" clip-path="url(#clip-path-4)">
+          <g id="Group_350" data-name="Group 350">
+            <g id="Group_349" data-name="Group 349" clip-path="url(#clip-path-2)">
+              <rect id="Rectangle_184" data-name="Rectangle 184" width="86.241" height="146.951" transform="translate(1228.875 8245.891)" fill="#ffca05"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

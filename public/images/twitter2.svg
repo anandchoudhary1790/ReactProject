@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.201" height="144.2" viewBox="0 0 144.201 144.2">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_178" data-name="Rectangle 178" width="144.201" height="144.201" rx="19.227" transform="translate(1384.171 8236.596)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_177" data-name="Rectangle 177" width="2280.773" height="324.451" transform="translate(-479.697 8171.706)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_690" data-name="Path 690" d="M1500.3,8286a27.674,27.674,0,0,1-9.7,2.648h-.015c4.325-2.215,6.867-7.633,7.4-9.37-4.931,3-9.052,3.99-10.9,4.128a17.1,17.1,0,0,0-29.333,11.958,17.767,17.767,0,0,0,.38,3.628c-17-.1-31.807-12.914-35.069-17.74-2.733,4.2-4.819,15.629,5.045,22.557a14.443,14.443,0,0,1-7.488-2c0,4.248,1.622,13.277,13.52,16.912a16.309,16.309,0,0,1-7.549.351,17.654,17.654,0,0,0,15.8,11.819,33.874,33.874,0,0,1-24.872,7.11,48.241,48.241,0,0,0,74.472-40.488c0-.719,0-1.448-.038-2.153,0-.235-.016-.463-.016-.69A29.168,29.168,0,0,0,1500.3,8286" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Twitter_icon" transform="translate(-1384.171 -8236.596)">
+    <g id="Group_339" data-name="Group 339">
+      <g id="Group_338" data-name="Group 338" clip-path="url(#clip-path)">
+        <g id="Group_337" data-name="Group 337">
+          <g id="Group_336" data-name="Group 336" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_176" data-name="Rectangle 176" width="168.234" height="168.234" transform="translate(1372.154 8224.579)" fill="#000002"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_343" data-name="Group 343">
+      <g id="Group_342" data-name="Group 342" clip-path="url(#clip-path-3)">
+        <g id="Group_341" data-name="Group 341">
+          <g id="Group_340" data-name="Group 340" clip-path="url(#clip-path-2)">
+            <rect id="Rectangle_179" data-name="Rectangle 179" width="106.814" height="91.541" transform="translate(1405.505 8266.232)" fill="#ffca05"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

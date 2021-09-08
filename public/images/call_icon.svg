@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.201" height="144.2" viewBox="0 0 144.201 144.2">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="144.201" height="144.201" rx="19.227" transform="translate(190.787 8236.596)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_146" data-name="Rectangle 146" width="2280.773" height="324.451" transform="translate(122.216 8171.706)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_675" data-name="Path 675" d="M233.005,8298.9c-4.466-8.1-6.168-14.622-6.168-19.031s1.083-5.672,2.182-6.694,6.055-4.077,6.9-4.646a4.5,4.5,0,0,1,6.089,1.229c2.021,2.907,5.827,8.744,8.451,12.622,4.117,5.493.837,7.9-.223,9.35-1.95,2.659-3.072,3.314-3.072,6.58s9.126,12.542,11.308,14.828c2.165,2.27,11.259,10.24,14.076,10.666,2.838.431,6.636-2.573,7.444-3.336,4.109-3.154,6.428-.763,8.32.276s10.443,6.368,13.093,8.164a5.624,5.624,0,0,1,2.338,4.572s-5.144,8.162-5.767,9.143c-.779,1.143-2.65,2.122-6.858,2.122s-8.705-.769-19.391-6.646c-8.744-4.809-17.079-12.339-21.443-16.747A106.561,106.561,0,0,1,233.005,8298.9Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="call_icon" transform="translate(-190.787 -8236.596)">
+    <g id="Group_539" data-name="Group 539">
+      <g id="Group_278" data-name="Group 278">
+        <g id="Group_277" data-name="Group 277" clip-path="url(#clip-path)">
+          <g id="Group_276" data-name="Group 276">
+            <g id="Group_275" data-name="Group 275" clip-path="url(#clip-path-2)">
+              <rect id="Rectangle_145" data-name="Rectangle 145" width="168.234" height="168.234" transform="translate(178.77 8224.579)" fill="#000002"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_282" data-name="Group 282">
+        <g id="Group_281" data-name="Group 281" clip-path="url(#clip-path-3)">
+          <g id="Group_280" data-name="Group 280">
+            <g id="Group_279" data-name="Group 279" clip-path="url(#clip-path-2)">
+              <rect id="Rectangle_148" data-name="Rectangle 148" width="100.94" height="100.94" transform="translate(214.82 8255.822)" fill="#ffca05"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="facebook_icon" d="M233.005,8298.9c-4.466-8.1-6.168-14.622-6.168-19.031s1.083-5.672,2.182-6.694,6.055-4.077,6.9-4.646a4.5,4.5,0,0,1,6.089,1.229c2.021,2.907,5.827,8.744,8.451,12.622,4.117,5.493.837,7.9-.223,9.35-1.95,2.659-3.072,3.314-3.072,6.58s9.126,12.542,11.308,14.828c2.165,2.27,11.259,10.24,14.076,10.666,2.838.431,6.636-2.573,7.444-3.336,4.109-3.154,6.428-.763,8.32.276s10.443,6.368,13.093,8.164a5.624,5.624,0,0,1,2.338,4.572s-5.144,8.162-5.767,9.143c-.779,1.143-2.65,2.122-6.858,2.122s-8.705-.769-19.391-6.646c-8.744-4.809-17.079-12.339-21.443-16.747A106.561,106.561,0,0,1,233.005,8298.9Z" fill="none" stroke="#ffca05" stroke-miterlimit="10" stroke-width="2.403"/>
+  </g>
+</svg>

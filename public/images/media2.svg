@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144.201" height="189.251" viewBox="0 0 144.201 189.251">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_166" width="144.201" height="144.201" class="cls-1" rx="19.227" transform="translate(787.479 8236.596)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Rectangle_165" d="M0 0H2280.773V324.451H0z" class="cls-1" transform="translate(120.476 8171.706)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="Path_687" d="M882.557 8330.976a5.884 5.884 0 0 1-5.937 5.834h-55.029a5.884 5.884 0 0 1-5.936-5.834v-44.086a5.885 5.885 0 0 1 5.936-5.832h55.029a5.885 5.885 0 0 1 5.937 5.832z" class="cls-2"/>
+        </clipPath>
+        <clipPath id="clip-path-5">
+            <path id="Path_688" d="M905.243 8286.633l-16.726 9.02v26.816l16.726 8.766z" class="cls-2"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{clip-rule:evenodd}.cls-5{clip-path:url(#clip-path-2)}.cls-8{fill:#ffca05}
+        </style>
+    </defs>
+    <g id="Group_326" transform="translate(-787.479 -8236.596)">
+        <text id="LIVE_CAM" font-family="ProximaNova-Semibold, Proxima Nova" font-size="28.84px" font-weight="600" transform="translate(795.755 8416.847)">
+            <tspan x="0" y="0">LIVE CAM</tspan>
+        </text>
+        <g id="Group_572">
+            <g id="Group_317">
+                <g id="Group_316" clip-path="url(#clip-path)">
+                    <g id="Group_315">
+                        <g id="Group_314" class="cls-5">
+                            <path id="Rectangle_164" fill="#000002" d="M0 0H168.234V168.234H0z" transform="translate(775.462 8224.579)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group_571">
+                <g id="Group_321">
+                    <g id="Group_320" clip-path="url(#clip-path-3)">
+                        <g id="Group_319">
+                            <g id="Group_318" class="cls-5">
+                                <path id="Rectangle_167" d="M0 0H90.936V79.786H0z" class="cls-8" transform="translate(803.638 8269.041)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group_325">
+                    <g id="Group_324" clip-path="url(#clip-path-5)">
+                        <g id="Group_323">
+                            <g id="Group_322" class="cls-5">
+                                <path id="Rectangle_169" d="M0 0H40.759V68.635H0z" class="cls-8" transform="translate(876.5 8274.616)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
