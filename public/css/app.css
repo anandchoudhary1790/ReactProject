@@ -11448,3 +11448,10 @@ b {
 .MuiAppBar-colorPrimary{
   background-color: #AB842E !important;
 }
+.MuiToolbar-regular{
+  min-height: 0 !important;
+}
+
+.MuiListItem-button:hover{
+  background-color: #FECD3D !important;
+}

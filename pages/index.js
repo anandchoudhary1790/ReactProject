@@ -4,6 +4,7 @@ import PrimarySearchAppBar from './Common/menu'
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
 
 function HomePage() {
   return (
@@ -23,8 +24,8 @@ function HomePage() {
       <Container maxWidth="xl">
         <header className="header">
           <Box className="container">
-            <Box className="row">
-              <Box className="col-sm-6 d-flex">
+          <Grid container spacing={3}> 
+              <Grid item xs={6} className="d-flex"> 
                 <Box className="logo">
                   <Link href="/">
                     <a>
@@ -32,8 +33,8 @@ function HomePage() {
                     </a>
                   </Link>
                 </Box>
-              </Box>
-              <Box className="col-sm-6 header-right">
+              </Grid>
+              <Grid item xs={6} className="header-right">  
                 <form className="form-inline my-2 my-lg-0">
                   <input
                     className="form-control"
@@ -47,13 +48,12 @@ function HomePage() {
                   >
                     <i className="fas fa-search"></i>
                   </button>
-                </form>
-
+                </form> 
                 <a className="signup_icon" href="#">
                   <img className="signup-icon" src="/images/sgnup-new.svg" />
                 </a>
-              </Box>
-            </Box>
+              </Grid>
+            </Grid>
           </Box>
         </header>
         <PrimarySearchAppBar />
