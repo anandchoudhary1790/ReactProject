@@ -5,12 +5,16 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import PrimarySearchAppBar from './Common/menu'
 import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
 
 function OfferPage() {
    return (
      <>
        <Head>
-         <meta  name="viewport" content="width=device-width, initial-scale=1.0" />
+         <meta
+           name="viewport"
+           content="width=device-width, initial-scale=1.0"
+         />
          <title>Arvzapp</title>
          <link rel="stylesheet" href="/css/app.css" />
          <script src="/js/vendor.js"></script>
@@ -73,39 +77,40 @@ function OfferPage() {
          <PrimarySearchAppBar />
          <Box className="welcome">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-md-7 offset-md-2 pb-4">
+             <Grid container spacing={3}>
+               <Grid item xs={12} md={2}></Grid>
+               <Grid item xs={12} md={7} pb={4} className="offset-md-2">
                  <img
                    src="images/welcome.svg"
                    className="img-fluid py-4"
                    alt=""
                  />
-               </Box>
-               <Box className="col-md-2 col-12 pl-md-5 ml-md-5 ">
+               </Grid>
+               <Grid item xs={12} md={2} className="pl-md-5 ml-md-5 ">
                  <Box className="welcome-wrapper ml-md-3 mx-auto">
                    <h3>BUSINESS OWNERS</h3>
                    <a href="">START HERE</a>
                  </Box>
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
          </Box>
 
          <section className="banner">
            <Box className="container-fluid">
-             <Box className="row align-items-center">
-               <Box className="col-12"></Box>
+             <Grid container spacing={3} alignItems="center">
+               <Grid item xs={12}></Grid>
                <Box className="video-bg">
                  <video src="images/landing-video.mp4" autoplay loop></video>
                </Box>
-             </Box>
+             </Grid>
            </Box>
          </section>
 
          <Box className="offer">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-12 d-flex justify-content-center">
+             <Grid container spacing={3}>
+               <Grid item xs={12} className="text-center">
                  <img
                    src="images/right.svg"
                    className="pr-5 img-fluid"
@@ -123,25 +128,25 @@ function OfferPage() {
                    alt=""
                  />
                  <img src="images/left.svg" className="pl-5 img-fluid" alt="" />
-               </Box>
-               <Box className="col-12">
+               </Grid>
+               <Grid item xs={12}>
                  <h3>SCAN NOW TO BEGIN!</h3>
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
          </Box>
 
          <Box className="begi">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-md-2 col-12 mt-n5">
+             <Grid container spacing={3}>
+               <Grid item xs={12} md={2} className="mt-n5">
                  <img
                    src="images/roll.png"
                    className="img-fluid begi-roll mt-n5"
                    alt=""
                  />
-               </Box>
-               <Box className="col-md-8 col-12">
+               </Grid>
+               <Grid item xs={12} md={8}>
                  <img
                    src="images/welcome-white.svg"
                    className="img-fluid pt-5"
@@ -154,42 +159,52 @@ function OfferPage() {
                    specific preferneces and favorite places. Presenting you with
                    a thrilling mobile adventure, on the go, and in Real – Time.
                  </p>
-               </Box>
-               <Box className="col-md-2 col-12 d-flex align-items-lg-start">
+               </Grid>
+               <Grid
+                 item
+                 xs={12}
+                 md={2}
+                 className="d-flex align-items-lg-start"
+               >
                  <img src="images/be.png" className="img-fluid  mt-n4" alt="" />
                  <h6>ANIMATED GIF BEE</h6>
-               </Box>
-             </Box>
-             <Box className="col-12 text-center">
-               <a href="">
-                 <span>VIEW CAMS NOW</span>
-               </a>
-             </Box>
-             <Box className="col-12 text-right">
-               <h5>SLOW PAN PANORAMA IF POSSIBLE</h5>
-             </Box>
+               </Grid>
+             </Grid>
+             <Grid container spacing={3}>
+               <Grid item xs={12} className="text-center">
+                 <a href="">
+                   <span>VIEW CAMS NOW</span>
+                 </a>
+               </Grid>
+               <Grid item xs={12} className="text-right">
+                 <h5>SLOW PAN PANORAMA IF POSSIBLE</h5>
+               </Grid>
+             </Grid>
            </Box>
            <img src="images/Panorama.png" className="img-fluid" alt="" />
          </Box>
 
          <Box className="action green-bg">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-md-2 col-12">
+             <Grid container spacing={3}>
+               <Grid item xs={12} md={2}>
                  <img
                    src="images/media.svg"
                    className="img-fluid w-80 mt-n5 left-icon"
                    alt=""
                  />
-               </Box>
-               <Box className="col-md-8 col-12">
+               </Grid>
+               <Grid item xs={12} md={8}>
                  <img
                    src="images/welcome-white.svg"
                    className="img-fluid pt-5"
                    alt=""
                  />
-               </Box>
-               <Box className="col-md-8 col-12 offset-md-2">
+               </Grid>
+             </Grid>
+             <Grid container spacing={3}>
+               <Grid item xs={12} md={2}></Grid>
+               <Grid item xs={12} md={8}>
                  <Box className="img-wrapper">
                    <iframe
                      id="autoVideo"
@@ -197,35 +212,35 @@ function OfferPage() {
                      allow="autoplay"
                    ></iframe>
                  </Box>
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
            <Box className="black-bg">
              <Box className="container-fluid">
-               <Box className="row pt-5">
-                 <Box className="col-12 d-flex justify-content-center">
+               <Grid container spacing={3} pt={5}>
+                 <Grid item xs={12}>
                    <img
                      src="images/CTA_Action.svg"
                      className="pr-5 img-fluid"
                      alt=""
                    />
-                 </Box>
-               </Box>
+                 </Grid>
+               </Grid>
              </Box>
            </Box>
          </Box>
 
          <Box className="begi">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-md-2 col-12">
+             <Grid container spacing={3}>
+               <Grid item xs={12} md={2}>
                  <img
                    src="images/capture.svg"
                    className="img-fluid  mt-n5 left-icon"
                    alt=""
                  />
-               </Box>
-               <Box className="col-md-8 col-12">
+               </Grid>
+               <Grid item xs={12} md={8}>
                  <img
                    src="images/welcome-white.svg"
                    className="img-fluid pt-5"
@@ -236,15 +251,15 @@ function OfferPage() {
                    live cams for your viewing pleasure and we are adding more
                    Live Cams every day!
                  </p>
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
          </Box>
 
          <Box className="video">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-md-4 col-12 pb-md-0 pb-5">
+             <Grid container spacing={3}>
+               <Grid item xs={12} md={4} pb={5} className="pb-md-0">
                  <Box className="video-wrapper">
                    <img src="images/1vpPdI.png" className="img-fluid" alt="" />
                  </Box>
@@ -258,8 +273,8 @@ function OfferPage() {
                    </Box>
                  </Box>
                  <h5>Current Viewers 125</h5>
-               </Box>
-               <Box className="col-md-4 col-12 pb-md-0 pb-5">
+               </Grid>
+               <Grid item xs={12} md={4} pb={5} className="pb-md-0">
                  <Box className="video-wrapper">
                    <img src="images/1vpPdI.png" className="img-fluid" alt="" />
                  </Box>
@@ -273,8 +288,8 @@ function OfferPage() {
                    </Box>
                  </Box>
                  <h5>Current Viewers 125</h5>
-               </Box>
-               <Box className="col-md-4 col-12 pb-md-0 pb-5">
+               </Grid>
+               <Grid item xs={12} md={4} pb={5} className="pb-md-0">
                  <Box className="video-wrapper">
                    <img src="images/1vpPdI.png" className="img-fluid" alt="" />
                  </Box>
@@ -288,11 +303,11 @@ function OfferPage() {
                    </Box>
                  </Box>
                  <h5>Current Viewers 125</h5>
-               </Box>
-               <Box className="col-12 py-5 mt-5 text-center">
+               </Grid>
+               <Grid item xs={12} className="text-center py-5 mt-5">
                  <img src="images/featured.svg" alt="" />
-               </Box>
-               <Box className="col-12">
+               </Grid>
+               <Grid item xs={12}>
                  <Box className="video-wrapper">
                    <img src="images/fkDYlB.png" className="img-fluid" alt="" />
                  </Box>
@@ -306,13 +321,13 @@ function OfferPage() {
                    </Box>
                  </Box>
                  <h5>Current Viewers 125</h5>
-               </Box>
-               <Box className="col-12 text-center mb-5">
+               </Grid>
+               <Grid item xs={12} className="text-center mb-5">
                  <a href="">
                    <span>VIEW CAMS NOW</span>
                  </a>
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
          </Box>
 
@@ -348,15 +363,15 @@ function OfferPage() {
          <Box className="action pt-md-5 pt-0">
            <Box className="black-bg new">
              <Box className="container-fluid">
-               <Box className="row pt-5">
-                 <Box className="col-12 d-flex justify-content-center">
+               <Grid container spacing={3} className="mt-5">
+                 <Grid item xs={12}>
                    <img
                      src="images/CTA_Cams.svg"
                      className="pr-5 img-fluid"
                      alt=""
                    />
-                 </Box>
-               </Box>
+                 </Grid>
+               </Grid>
              </Box>
            </Box>
          </Box>
@@ -386,38 +401,38 @@ function OfferPage() {
 
          <Box className="cartoon">
            <Box className="container-fluid">
-             <Box className="row">
-               <Box className="col-12">
+             <Grid container spacing={3}>
+               <Grid item xs={12}>
                  <img
                    src="images/Capt_Star_Group_2.svg"
                    className="img-fluid"
                    alt=""
                  />
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
          </Box>
 
          <Box className="action pt-5">
            <Box className="black-bg no-after">
              <Box className="container-fluid">
-               <Box className="row pt-5">
-                 <Box className="col-12 d-flex justify-content-center">
+               <Grid container spacing={3} className="pt-5">
+                 <Grid item xs={12}>
                    <img
                      src="images/CTA_Adventure.svg"
                      className="pr-5 img-fluid"
                      alt=""
                    />
-                 </Box>
-               </Box>
+                 </Grid>
+               </Grid>
              </Box>
            </Box>
          </Box>
 
          <footer>
            <Box className="container-fluid">
-             <Box className="row px-md-5">
-               <Box className="col-md-3 col-12">
+             <Grid container spacing={3} className="px-md-5">
+               <Grid item xs={12} md={3}>
                  <ul>
                    <li>ARVZAPP</li>
                    <li>
@@ -436,8 +451,8 @@ function OfferPage() {
                      <a href="">EXPLORE</a>
                    </li>
                  </ul>
-               </Box>
-               <Box className="col-md-3 col-12">
+               </Grid>
+               <Grid item xs={12} md={3}>
                  <ul>
                    <li>SUPPORT</li>
                    <li>
@@ -453,8 +468,8 @@ function OfferPage() {
                      <a href="">THE ARVZAPP STORY</a>
                    </li>
                  </ul>
-               </Box>
-               <Box className="col-md-3 col-12">
+               </Grid>
+               <Grid item xs={12} md={3}>
                  <ul>
                    <li>FOR BUSINESSES</li>
                    <li>
@@ -486,8 +501,8 @@ function OfferPage() {
                      </a>
                    </li>
                  </ul>
-               </Box>
-               <Box className="col-md-3 col-12 pt-md-0 pt-4">
+               </Grid>
+               <Grid item xs={12} md={3} className="pt-md-0 pt-4">
                  <p>Looking to Promote with ArvzApp?</p>
                  <Box className="welcome-wrapper">
                    <h3>
@@ -507,13 +522,13 @@ function OfferPage() {
                      alt=""
                    />
                  </Box>
-               </Box>
-               <Box className="col-12 text-left pt-md-0 pt-4">
+               </Grid>
+               <Grid item xs={12} className="text-left pt-md-0 pt-4">
                  <p className="text-left">
                    COPYRIGHT 2021 ARVZAPP ADMIN. ALL RIGHTS RESERVED.
                  </p>
-               </Box>
-             </Box>
+               </Grid>
+             </Grid>
            </Box>
          </footer>
 

@@ -11440,16 +11440,22 @@ b {
 .navbar{
   position: inherit;
 }
+
 .MuiContainer-root{
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 
 .MuiAppBar-colorPrimary{
   background-color: #AB842E !important;
 }
 .MuiToolbar-regular{
   min-height: 0 !important;
+  text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .MuiListItem-button:hover{

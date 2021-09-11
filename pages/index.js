@@ -24,8 +24,8 @@ function HomePage() {
       <Container maxWidth="xl">
         <header className="header">
           <Box className="container">
-          <Grid container spacing={3}> 
-              <Grid item xs={6} className="d-flex"> 
+            <Grid container spacing={3}>
+              <Grid item xs={6}>
                 <Box className="logo">
                   <Link href="/">
                     <a>
@@ -34,7 +34,7 @@ function HomePage() {
                   </Link>
                 </Box>
               </Grid>
-              <Grid item xs={6} className="header-right">  
+              <Grid item xs={6} className="header-right">
                 <form className="form-inline my-2 my-lg-0">
                   <input
                     className="form-control"
@@ -48,7 +48,7 @@ function HomePage() {
                   >
                     <i className="fas fa-search"></i>
                   </button>
-                </form> 
+                </form>
                 <a className="signup_icon" href="#">
                   <img className="signup-icon" src="/images/sgnup-new.svg" />
                 </a>
@@ -206,25 +206,25 @@ function HomePage() {
 
           <Box className="customize-items-sec">
             <Box className="container">
-              <Box className="row">
-                <Box className="col-md-4">
+              <Grid container spacing={2}>
+                <Grid item xs={12} md={4}>
                   <Box className="customize-items-img">
                     <img src="/images/customize-items-img01.jpg" />
                   </Box>
-                </Box>
+                </Grid>
 
-                <Box className="col-md-4">
+                <Grid item xs={12} md={4}>
                   <Box className="customize-items-img">
                     <img src="/images/customize-items-img02.jpg" />
                   </Box>
-                </Box>
+                </Grid>
 
-                <Box className="col-md-4">
+                <Grid item xs={12} md={4}>
                   <Box className="customize-items-img">
                     <img src="/images/customize-items-img03.jpg" />
                   </Box>
-                </Box>
-              </Box>
+                </Grid>
+              </Grid>
               <h3>Customize Business Profile Pages</h3>
             </Box>
           </Box>
@@ -361,9 +361,11 @@ function HomePage() {
 
           <Box className="you-get-inner">
             <Box className="container">
-              <Box className="col-sm-12">
-                <img className="" src="/images/Def_Corm_1mdpi.svg" />
-              </Box>
+              <Grid container spacing={3}>
+                <Grid item xs={12}>
+                  <img className="" src="/images/Def_Corm_1mdpi.svg" />
+                </Grid>
+              </Grid>
             </Box>
           </Box>
         </Box>
@@ -444,13 +446,13 @@ function HomePage() {
 
           <Box className="Stream-bg-sec">
             <Box className="big-container">
-              <Box className="row">
-                <Box className="col-md-12">
+              <Grid container spacing={3}>
+                <Grid item xs={12}>
                   <Box className="Stream-img-col">
                     <img src="/images/video_stream_img.png" />
                   </Box>
-                </Box>
-              </Box>
+                </Grid>
+              </Grid>
             </Box>
           </Box>
         </Box>
@@ -571,8 +573,8 @@ function HomePage() {
         <footer className="footer">
           <Box className="container">
             <Box className="footer-inner">
-              <Box className="row d-flex">
-                <Box className="col-sm-2">
+              <Grid container spacing={3} className="d-flex">
+                <Grid item xs={2}>
                   <h2>ARVZAPP</h2>
                   <ul>
                     <li>
@@ -594,9 +596,9 @@ function HomePage() {
                       <a href="#">EXPLORE</a>
                     </li>
                   </ul>
-                </Box>
+                </Grid>
 
-                <Box className="col-sm-2">
+                <Grid item xs={2}>
                   <h2>SUPPORT</h2>
                   <ul>
                     <li>
@@ -612,9 +614,9 @@ function HomePage() {
                       <a href="#">THE ARVZAPP STORY</a>
                     </li>
                   </ul>
-                </Box>
+                </Grid>
 
-                <Box className="col-sm-2">
+                <Grid item xs={2}>
                   <h2>FOR BUSINESSES</h2>
                   <ul>
                     <li>
@@ -647,9 +649,9 @@ function HomePage() {
                       </a>
                     </li>
                   </ul>
-                </Box>
+                </Grid>
 
-                <Box className="col-sm-6 last-footer-col">
+                <Grid item xs={6} className="last-footer last-footer-col">
                   <p>
                     <a href="#">
                       <img
@@ -658,8 +660,8 @@ function HomePage() {
                       />
                     </a>
                   </p>
-                </Box>
-              </Box>
+                </Grid>
+              </Grid>
 
               <Box className="copyright">
                 <p>COPYRIGHT 2021 ARVZAPP ADMIN. ALL RIGHTS RESERVED.</p>

@@ -406,6 +406,9 @@ ul.social-footer li{margin-right: 10px;}
 .col-sm-6.last-footer-col p{width: 100%; text-align: right; font-size: 20px; color: #fff; font-family: 'Proxima Nova Alt Light';}
 .col-sm-6.last-footer-col p a{width: 100%; text-align: right; font-size: 20px; color: #fff; font-family: 'Proxima Nova Alt Light'; text-decoration: underline; display: block; padding-right: 5px; margin-top:50px;}
 
+.last-footer.last-footer-col p{width: 100%; text-align: right; font-size: 20px; color: #fff; font-family: 'Proxima Nova Alt Light';}
+.last-footer.last-footer-col p a{width: 100%; text-align: right; font-size: 20px; color: #fff; font-family: 'Proxima Nova Alt Light'; text-decoration: underline; display: block; padding-right: 5px; margin-top:50px;}
+
 .footer-signup{
 background: #000000;
 border: 1px solid #8BC53F;

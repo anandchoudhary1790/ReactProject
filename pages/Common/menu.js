@@ -87,14 +87,22 @@ export default function PrimarySearchAppBar() {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar>
-        <MenuItem containerElement={<Link to="/"><a>HOME</a></Link>}>HOME</MenuItem>
-        <MenuItem onClick={handleMenuClose}>ABOUT</MenuItem> 
-        <MenuItem onClick={handleMenuClose}>LIVE</MenuItem> 
-        <MenuItem onClick={handleMenuClose}>CAMS</MenuItem> 
-        <MenuItem onClick={handleMenuClose}>FAQ’S</MenuItem> 
-        <MenuItem onClick={handleMenuClose}>SUPPORT</MenuItem>  
+          <MenuItem
+            containerElement={
+              <Link to="/">
+                <a>HOME</a>
+              </Link>
+            }
+          >
+            HOME
+          </MenuItem>
+          <MenuItem onClick={handleMenuClose}>ABOUT</MenuItem>
+          <MenuItem onClick={handleMenuClose}>LIVE</MenuItem>
+          <MenuItem onClick={handleMenuClose}>CAMS</MenuItem>
+          <MenuItem onClick={handleMenuClose}>FAQ’S</MenuItem>
+          <MenuItem onClick={handleMenuClose}>SUPPORT</MenuItem>
         </Toolbar>
-      </AppBar>  
+      </AppBar>
     </div>
   );
 }
