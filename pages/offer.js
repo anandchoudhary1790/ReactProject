@@ -167,7 +167,7 @@ function OfferPage() {
                  className="d-flex align-items-lg-start"
                >
                  <img src="images/be.png" className="img-fluid  mt-n4" alt="" />
-                 <h6>ANIMATED GIF BEE</h6>
+                  
                </Grid>
              </Grid>
              <Grid container spacing={3}>
@@ -177,7 +177,7 @@ function OfferPage() {
                  </a>
                </Grid>
                <Grid item xs={12} className="text-right">
-                 <h5>SLOW PAN PANORAMA IF POSSIBLE</h5>
+                  
                </Grid>
              </Grid>
            </Box>
