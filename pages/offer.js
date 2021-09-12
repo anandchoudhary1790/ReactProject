@@ -2,12 +2,19 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
 import PrimarySearchAppBar from './Common/menu'
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
+ 
+const useStyles = makeStyles((theme) => ({
+  iframe: {
+    width: '100%',
+  },
+}));
 
 function OfferPage() {
+  const classes = useStyles();
    return (
      <>
        <Head>
@@ -206,11 +213,8 @@ function OfferPage() {
                <Grid item xs={12} md={2}></Grid>
                <Grid item xs={12} md={8}>
                  <Box className="img-wrapper">
-                   <iframe
-                     id="autoVideo"
-                     src="https://drive.google.com/file/d/1CJj1xVkCGQXISlHtjNPZqXMwhBoSWb_p/preview"
-                     allow="autoplay"
-                   ></iframe>
+                 <iframe id="autoVideo" src="https://drive.google.com/file/d/1CJj1xVkCGQXISlHtjNPZqXMwhBoSWb_p/preview"
+                height="480" className={classes.iframe} allow="autoplay"></iframe>
                  </Box>
                </Grid>
              </Grid>

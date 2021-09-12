@@ -13,7 +13,6 @@ function HomePage() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="/css/all.css" rel="stylesheet" type="text/css" />
-        <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="/css/styles.css" rel="stylesheet" type="text/css" />
         <title>Arvzapp</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
