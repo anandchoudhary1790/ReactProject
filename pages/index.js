@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Head from 'next/head' 
 import PrimarySearchAppBar from './Common/menu'
 import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 
@@ -13,6 +12,7 @@ function HomePage() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="/css/all.css" rel="stylesheet" type="text/css" />
+         <link rel="stylesheet" href="/css/app.css" />
         <link href="/css/styles.css" rel="stylesheet" type="text/css" />
         <title>Arvzapp</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

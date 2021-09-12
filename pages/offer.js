@@ -6,6 +6,7 @@ import PrimarySearchAppBar from './Common/menu'
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
+import InputBase from '@material-ui/core/InputBase'; 
  
 const useStyles = makeStyles((theme) => ({
   iframe: {
@@ -59,7 +60,7 @@ function OfferPage() {
              >
                <ul className="navbar-nav m-0 ml-auto align-items-center">
                  <li className="nav-item position-relative mr-2">
-                   <input type="text" />
+                   <InputBase type="text" />
                    <img
                      src="images/search-logo.svg"
                      className="input-img"
@@ -213,8 +214,7 @@ function OfferPage() {
                <Grid item xs={12} md={2}></Grid>
                <Grid item xs={12} md={8}>
                  <Box className="img-wrapper">
-                 <iframe id="autoVideo" src="https://drive.google.com/file/d/1CJj1xVkCGQXISlHtjNPZqXMwhBoSWb_p/preview"
-                height="480" className={classes.iframe} allow="autoplay"></iframe>
+                 <iframe id="autoVideo" src="https://drive.google.com/file/d/1CJj1xVkCGQXISlHtjNPZqXMwhBoSWb_p/preview" height="480" className={classes.iframe} allow="autoplay"></iframe>
                  </Box>
                </Grid>
              </Grid>
