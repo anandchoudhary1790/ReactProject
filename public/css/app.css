@@ -10878,8 +10878,7 @@ a {
 }
 
 .left-icon {
-  max-width: 50%;
-  left: 5vw;
+  max-width: 50%; 
   position: relative;
 }
 
@@ -11114,7 +11113,7 @@ a {
 }
 .alerts .bell-img {
   position: absolute;
-  top: -80px;
+  top: -40px;
 }
 .alerts p {
   padding-top: 50px;
@@ -11460,4 +11459,10 @@ b {
 
 .MuiListItem-button:hover{
   background-color: #FECD3D !important;
+}
+iframe{
+  width: 100%;
+}
+.cartoon{
+  margin-top: 50px;
 }

@@ -283,7 +283,7 @@ body {
 }
 .left-icon{
   max-width: 50%;
-  left: 5vw;
+  // left: 5vw;
   position: relative;
 }
 .begi{
@@ -527,7 +527,7 @@ body {
   padding-bottom: 180px;
   .bell-img{
     position: absolute;
-    top: -80px;
+    top: -40px;
   }
   p{
     padding-top: 50px;
@@ -869,4 +869,8 @@ b{
     width: 200px;
 
   }
+}
+
+.cartoon{
+  margin-top: 50px;
 }

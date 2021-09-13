@@ -60,7 +60,7 @@ function OfferPage() {
              >
                <ul className="navbar-nav m-0 ml-auto align-items-center">
                  <li className="nav-item position-relative mr-2">
-                   <InputBase type="text" />
+                   <input type="text" />
                    <img
                      src="images/search-logo.svg"
                      className="input-img"
