@@ -96,7 +96,7 @@ export default function FooterBase() {
 
           <Grid item xs={6} className="last-footer last-footer-col">
             <p>
-              <a href="#">
+              <a href="https://arvzapp-dev.web.app/sign-up">
                 <img
                   className="signup-img"
                   src="/images/Footer_60Day_1.svg"

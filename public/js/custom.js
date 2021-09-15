@@ -1,5 +1,5 @@
 
-   // document.getElementById('autoVideo').play(); 
+    document.getElementById('autoVideo').play(); 
     $(document).ready(function () {
       var delay = 2000;
       $('.submit-btn').click(function (e) {
